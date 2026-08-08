@@ -3,90 +3,219 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Vishav Vijay Singh Dangi</title>
 
 <style>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#f2f2f2;
-text-align:center;
-}
-.header{
-background:#0d47a1;
-color:white;
-padding:30px;
-}
-img{
-width:180px;
-height:180px;
-border-radius:50%;
-border:5px solid white;
-}
-.card{
-background:white;
-margin:20px;
-padding:20px;
-border-radius:15px;
-box-shadow:0 0 10px gray;
-}
-a.button{
-display:block;
-margin:10px;
-padding:15px;
-background:#0d47a1;
-color:white;
-text-decoration:none;
-border-radius:8px;
-font-size:18px;
-}
-</style>
 
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f2f5f8;
+    color:#222;
+    text-align:center;
+}
+
+.header{
+    background:linear-gradient(135deg,#0645a5,#1764c0);
+    color:white;
+    padding:35px 15px 40px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid white;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
+h1{
+    margin:18px 0 8px;
+    font-size:32px;
+}
+
+.subtitle{
+    font-size:20px;
+    font-weight:bold;
+    margin:8px 0;
+}
+
+.mission{
+    margin-top:20px;
+    font-size:19px;
+    line-height:1.6;
+}
+
+.mission strong{
+    font-size:22px;
+}
+
+.card{
+    background:white;
+    margin:22px auto;
+    padding:25px;
+    width:92%;
+    max-width:650px;
+    border-radius:18px;
+    box-shadow:0 5px 18px rgba(0,0,0,0.18);
+}
+
+.card h2{
+    margin-top:0;
+    font-size:26px;
+}
+
+.button{
+    display:block;
+    margin:12px 0;
+    padding:15px;
+    background:#0645a5;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.button:hover{
+    background:#032f73;
+}
+
+.address{
+    font-size:18px;
+    line-height:1.8;
+}
+
+.footer{
+    background:#0645a5;
+    color:white;
+    padding:20px;
+    margin-top:30px;
+    font-size:15px;
+}
+
+</style>
 </head>
 
 <body>
 
+<!-- HEADER -->
+
 <div class="header">
 
-<img src="https://i.imgur.com/7D7I6dK.png">
+    <!-- आपकी फोटो -->
+    <img src="photo.jpg"
+         alt="Vishav Vijay Singh Dangi"
+         class="profile">
 
-<h1>Vishav Vijay Singh Dangi</h1>
+    <h1>Vishav Vijay Singh Dangi</h1>
 
-<h3>AWPL Direct Seller</h3>
+    <div class="subtitle">
+        AWPL Direct Seller
+    </div>
 
-<p><b>Mission:</b><br>
-बिमारी और बेरोजगारी को खत्म करना।
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Contact</h2>
-
-<a class="button" href="tel:+918401662267">📞 Call</a>
-
-<a class="button" href="https://wa.me/917024967176">💬 WhatsApp</a>
-
-<a class="button" href="mailto:Vishavvijaysinghdangi047@gmail.com">📧 Email</a>
-
-<a class="button" href="https://www.youtube.com/@Awpldangi">▶ YouTube</a>
-
-<a class="button" href="https://www.facebook.com/profile.php?id=61590802881718">📘 Facebook</a>
-
-<a class="button" href="https://www.threads.com/@vijay_s116141">🧵 Threads</a>
+    <div class="mission">
+        <strong>Mission:</strong><br>
+        Health &amp; Wellness
+    </div>
 
 </div>
 
+
+<!-- ABOUT -->
+
 <div class="card">
 
-<h2>Address</h2>
+    <h2>About Me</h2>
 
-<p>
-Village Suwakheda<br>
-Tahsil Jawad<br>
-District Neemuch (M.P.)
-</p>
+    <p>
+        Welcome to my website.
+    </p>
+
+    <p>
+        I am working towards creating awareness about
+        <strong>Health &amp; Wellness</strong>
+        and helping people move towards a healthier lifestyle.
+    </p>
+
+</div>
+
+
+<!-- CONTACT -->
+
+<div class="card">
+
+    <h2>Contact</h2>
+
+    <a class="button"
+       href="tel:+918401662267">
+       📞 Call
+    </a>
+
+    <a class="button"
+       href="https://wa.me/917024967176"
+       target="_blank">
+       💬 WhatsApp
+    </a>
+
+    <a class="button"
+       href="mailto:Vishavvijaysinghdangi047@gmail.com">
+       📧 Email
+    </a>
+
+    <a class="button"
+       href="https://www.youtube.com/@Awpldangi"
+       target="_blank">
+       ▶️ YouTube
+    </a>
+
+    <a class="button"
+       href="https://www.facebook.com/profile.php?id=61590802881718"
+       target="_blank">
+       📘 Facebook
+    </a>
+
+    <a class="button"
+       href="https://www.threads.com/@vijay_s116141"
+       target="_blank">
+       🧵 Threads
+    </a>
+
+</div>
+
+
+<!-- ADDRESS -->
+
+<div class="card">
+
+    <h2>Address</h2>
+
+    <div class="address">
+
+        Suwakheda<br>
+        Jawad<br>
+        Neemuch<br>
+        Madhya Pradesh<br>
+        458441
+
+    </div>
+
+</div>
+
+
+<!-- FOOTER -->
+
+<div class="footer">
+
+    © 2026 Vishav Vijay Singh Dangi<br>
+    Health &amp; Wellness
 
 </div>
 
