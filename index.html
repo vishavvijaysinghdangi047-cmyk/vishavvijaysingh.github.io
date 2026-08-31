@@ -255,6 +255,27 @@ h1{
 
   <p>QR Code Scan करके मेरी Website खोलें</p>
 </div>
-  
+ <!-- SHARE WEBSITE -->
+<div class="card" style="text-align:center;">
+  <h2>Share My Website</h2>
+
+  <button class="button" onclick="shareWebsite()">
+    📤 Share Website
+  </button>
+</div>
+
+<script>
+function shareWebsite() {
+  if (navigator.share) {
+    navigator.share({
+      title: "Vishav Vijay Singh Dangi",
+      text: "Visit my website",
+      url: window.location.href
+    });
+  } else {
+    alert("Share option is not supported on this browser.");
+  }
+}
+      </script> 
 </body>
 </html>
